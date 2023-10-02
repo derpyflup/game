@@ -26,3 +26,7 @@ jobs:
 
       # run tests!
       - run: npm run lint
+      git clone git@github.com:YOUR_USERNAME/game.git
+cd game
+npm install
+npm run serve
